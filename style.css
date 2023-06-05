@@ -176,6 +176,9 @@ footer{
         padding: 2rem;
     }
     
+    #summary-text{
+        width: 100% !important;
+    }
     .experience-collapse{
         display: flex;
         flex-direction: column;
