@@ -1,4 +1,109 @@
 {
     "mainDescription":"Desenvolvedora de Software Full Stack",
-    "contact": "Contatos"
+    "locationOn": "São Paulo, Brasil",
+    "languageAriaLabel": "Selecione o idioma",
+    "summary": "Resumo",
+    "summaryText": "Graduada em administração pela USP, possuo experiência em desenvolvimento de softwares, com os frameworks Angular.Js e Spring Boot (JAVA). Em TI, passei por projetos de desenvolvimento de marketplace interno e de sistema de gestão de contrato. Nos projetos, além de desenvolver, utilizei metodologias ágeis para organizar as histórias e sprints, além de ser responsável por toda documentação e criação de manuais de usuários. Antes de migrar para TI, atuei na área de gestão de pessoas, com ênfase em T&D (Treinamento e Desenvolvimento). Já atuei também com gestão de projetos educacionais, gestão de KPI, análise de dados e Design Instrucional.",
+    "experience": "Experiência",
+    "experiences": {
+        "experience0": [
+            {
+                "position": "Desenvolvedora Jr.",
+                "period": "set/2022 - ao presente",
+                "responsabilities": ["Desenvolvimento de interfaces web responsivas utilizando Angular, HTML5, CSS3, JavaScript, Typescript, etc;",
+                "Criação de soluções de software no backend, utilizando as linguagens JAVA, Python e o framework Spring Boot;",
+                "Experiência com o desenvolvimento de microsserviços, utilizando comunicação via mensageria;",
+                "Elaboração de layouts no Figma e vivência com experiência do usuário;",
+                "Domínio de bancos de dados relacionais e não relacionais, como MySQL, Postgres e MongoDB;",
+                "Contribuição na identificação das necessidades e na elaboração de histórias de usuários;",
+                "Experiência com documentação de projetos;",
+                "Vivência em metodologias ágeis, principalmente SCRUM."]
+            }
+        ],
+        "experience1": [
+            {
+                "position": "Analista de Treinamento e Desenvolvimento",
+                "period": "mar/2022 - set/2022",
+                "responsabilities": [
+                    "Gerenciamento da LXP (Learning Experience Platform);",
+                    "Realização de curadoria de conteúdos, levantamento de necessidades de treinamento (LNT), logística de treinamento e execução de ações de desenvolvimento;",
+                    "Levantamento, análise e gestão de indicadores."
+                ]
+            }
+        ],
+        "experience2": [
+            {
+                "position": "Analista de Treinamentos",
+                "period": "mai/2021 - mar/2022",
+                "responsabilities": [
+                    "Gerenciamento de treinamentos dentro da plataforma LMS, inovando com o uso de HTML para melhorar a apresentação dos cursos;",
+                    "Logística e suporte end-to-end dos treinamentos dentro do ambiente virtual;",
+                    "Atuação na melhoria constante dos processos de treinamentos, a partir de metodologias ágeis;",
+                    "Relacionamento com clientes internos para prover a melhor experiência de aprendizagem aos participantes."
+                ]
+            }
+        ],
+        "experience3": [
+            {
+                "position": "Designer Instrucional",
+                "period": "jun/2020 - abr/2021",
+                "responsabilities": [
+                    "Desenvolvimento de jornadas de treinamento online e híbridas;",
+                    "Administração do LMS LearningHub, baseado em Moodle;",
+                    "Desenvolvimento de objetos de aprendizagem digital a partir de princípios da andragogia e de multimídia para educação;",
+                    "Criação de game online e prospecção de inovação para aprendizado digital."
+                ]
+            },
+            {
+                "position": "Analista de Projetos e Estagiária de Projetos",
+                "period": "jun/2019 - abr/2021 (a partir de out/2019 como efetiva)",
+                "responsabilities": [
+                    "Planejamento e acompanhamento dos projetos durante toda a jornada do cliente com a Crescimentum;",
+                    "Elaboração e controle de cronogramas;",
+                    "Suporte à implementação de ERP, atuando no levantamento de demandas e processos;",
+                    "Coordenação da estruturação de projeto global de treinamentos corporativos;",
+                    "Gerenciamento da equipe e controle da alocação de pessoas no projeto;",
+                    "Análise e geração de indicadores de projetos e de performance dos recursos humanos."
+                ]
+            }   
+        ]
+    },
+    "otherExperiences": {
+        "title": "Outras experiências",
+        "list": [
+            "Voluntariado no Instituto Criar para Amar como tradutora Inglês/Português – abr/2022 ao presente",
+            "Intercâmbio de trabalho na fábrica da Chatteraise (Japão) – dez/2018 a mar/2019",
+            "Voluntariado no Projeto Kali, promovendo eventos de apoio à educação para alunos de nível médio (ago/2016 – mar/2017)",
+            "Coordenadora geral no Programa de Educação Tutorial (FEA USP) – abr/2017 a set/2019",
+            "Coordenadora de Eventos na USP Júnior – fev/2017 a dez/2017",
+            "Coordenadora de Eventos e Consultora na FEA júnior USP – abr/2016 a dez/2017"
+        ]
+    },
+    "academicBackGround": {
+        "title": "Formação acadêmicas",
+        "list": [
+            "Pós-Graduação Latu Sensu em Gestão de Pessoas e Desenvolvimento Organizacional – Universidade Presbiteriana Mackenzie – 2022 a 2023 (previsão)",
+            "Bacharelado em Administração de empresas – Universidade de São Paulo – 2017 a 2021 ",
+            "Tecnólogo em Gestão de Recursos Humanos – Universidade Estácio de Sá – 2020 a 2021"
+        ]
+    },
+    "languagesSkills": {
+        "title": "Idiomas",
+        "list": [
+            {"name": "Inglês", "level": 3, "levelName": "Avançado"},
+            {"name": "Espanhol", "level": 3, "levelName": "Avançado"},
+            {"name": "Japonês", "level": 1, "levelName":"Básico"}
+        ]
+    },
+    "courses": {
+        "title": "Principais cursos recentes",
+        "list": [
+            "FullStack Developer (Angular.js, Java, Spring Boot, JSP, MySQL) (400 horas) – Proway – 2022",
+            "FullStack Developer (HTML5, CSS3, JavaScript, ReactJs, NodeJs, MySQL) (98 horas) – Digital Innovation One - 2022",
+            "Desenho Instrucional (120 horas) – Instituto de Desenho Instrucional - 2021",
+            "Master Power BI (20 horas) – Sigma Treinamentos - 2020",
+            "Excel Avançado 2.0 (20 horas) - Sigma Treinamentos – 2020"
+        ]
+    },
+    "footerText":"Desenvolvido por"
 }

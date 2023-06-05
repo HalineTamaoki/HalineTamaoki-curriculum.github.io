@@ -1,0 +1,111 @@
+{
+    "mainDescription":"Full Stack Software Developer",
+    "locationOn": "São Paulo, Brazil",
+    "languageAriaLabel": "Select the language",
+    "summary": "Summary",
+    "summaryText": "Graduated in administration from USP, I have experience in software development using the Angular.Js and Spring Boot (JAVA) frameworks. In IT, I have worked on an internal marketplace development project and on a contract management system project. In these projects, in addition to development, I used agile methodologies to organize stories and sprints, and I was responsible for the documentation and creation of user manuals. Before switching to IT, I worked with human resources, with a focus on Training and Development (T&D). I have also worked in educational project management, KPI management, data analysis, and Instructional Design.",
+    "experience": "Experience",
+    "experiences": {
+        "experience0": [
+            {
+                "position": "Junior Developer",
+                "period": "sep/2022 - today",
+                "responsabilities": [
+                    "Development of responsive web interfaces using Angular, HTML5, CSS3, JavaScript, TypeScript, etc;",
+                    "Creation of backend software solutions using JAVA, Python, and the Spring Boot framework;",
+                    "Experience with the development of microservices, using messaging communication;",
+                    "Designing layouts in Figma and familiarity with user experience;",
+                    "Proficiency in both relational and non-relational databases, such as MySQL, Postgres, and MongoDB;",
+                    "Contribution to identifying needs and creating user stories;",
+                    "Experience with project documentation;",
+                    "Familiarity with agile methodologies, particularly SCRUM."]
+            }
+        ],
+        "experience1": [
+            {
+                "position": "Learning and Development Analyst",
+                "period": "mar/2022 - sep/2022",
+                "responsabilities": [
+                    "Management of the LXP (Learning Experience Platform);",
+                    "Curating content, conducting learning needs assessment (LNA), training logistics, and implementing development initiatives;",
+                    "Gathering, analyzing, and managing indicators."
+                ]
+            }
+        ],
+        "experience2": [
+            {
+                "position": "Learning Analyst",
+                "period": "may/2021 - mar/2022",
+                "responsabilities": [
+                    "Management of trainings within the LMS platform, innovating through the use of HTML to enhance course presentation;",
+                    "End-to-end logistics and support for trainings within the virtual environment;",
+                    "Continuous improvement of training processes through agile methodologies;",
+                    "Relationship with internal clients to provide the best learning experience for participants."
+                ]
+            }
+        ],
+        "experience3": [
+            {
+                "position": "Instrucional Designer",
+                "period": "jun/2020 - apr/2021",
+                "responsabilities": [
+                    "Development of online and hybrid training journeys;",
+                    "Management of the LearningHub LMS, based on Moodle;",
+                    "Development of digital learning objects based on principles of andragogy and multimedia for education;",
+                    "Creation of online games and exploration of innovation for digital learning."
+                ]
+            },
+            {
+                "position": "Project Analyst and Intern",
+                "period": "jun/2019 - apr/2021 (from October 2019 as a full-time employee)",
+                "responsabilities": [
+                    "Planning and monitoring of projects throughout the customer journey with Crescimentum;",
+                    "Development and control of schedules;",
+                    "Support for ERP implementation, including gathering requirements and processes;",
+                    "Coordination of the structuring of a global corporate training project;",
+                    "Team management and allocation control in the project;",
+                    "Analysis and generation of project indicators and human resources performance."
+                ]
+            }   
+        ]
+    },
+    "otherExperiences": {
+        "title": "Other experiences",
+        "list": [
+            "Volunteering at Instituto Criar para Amar as an English/Portuguese translator - apr/2022 to present;",
+            "Work exchange at Chatteraise factory (Japan) - dec/2018 to mar/2019;",
+            "Volunteering at Projeto Kali, promoting education support events for high school students - aug/2016 to mar/2017;",
+            "General Coordinator at the Tutorial Education Program (FEA USP) - apr/2017 to sep/2019;",
+            "Events Coordinator at USP Júnior - feb/2017 to dec/2017;",
+            "Events Coordinator and Consultant at FEA júnior USP - apr/2016 to dec/2017."
+        ]
+    },
+    "academicBackGround": {
+        "title": "Academic Background",
+        "list": [
+            "Postgraduate Specialization in People Management and Organizational Development - Mackenzie University - 2022 to 2023 (expected completion);",
+            "Bachelor's degree in Business Administration - University of São Paulo - 2017 to 2021;",
+            "College degree in Human Resources Management - Estácio de Sá University - 2020 to 2021."
+        ]
+    },
+    "languagesSkills": {
+        "title": "Languages",
+        "list": [
+            {"name": "Portuguese", "level": 3, "levelName": "Native"},
+            {"name": "English", "level": 3, "levelName": "Advanced"},
+            {"name": "Spanish", "level": 3, "levelName": "Advanced"},
+            {"name": "Japanese", "level": 1, "levelName":"Basic"}
+        ]
+    },
+    "courses": {
+        "title": "Main recent courses",
+        "list": [
+            "FullStack Developer (Angular.js, Java, Spring Boot, JSP, MySQL) (400 hours) - Proway - 2022;",
+            "FullStack Developer (HTML5, CSS3, JavaScript, ReactJs, NodeJs, MySQL) (98 hours) - Digital Innovation One - 2022;",
+            "Instructional Design (120 hours) - Instituto de Desenho Instrucional - 2021;",
+            "Master Power BI (20 hours) - Sigma Treinamentos - 2020;",
+            "Advanced Excel 2.0 (20 hours) - Sigma Treinamentos - 2020."
+        ]
+    },
+    "footerText":"Developed by"
+}

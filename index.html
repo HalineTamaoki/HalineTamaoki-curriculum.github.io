@@ -10,42 +10,100 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Haline Tamaoki</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="custom-col-1">
-            <div class="main-description">
+    <div class="wrapper d-flex flex-column">
+        <section class="custom-part-1">
+            <div class="language d-flex justify-content-end">
+                <select name="language" id="language-select">
+                    <option value="pt">Português</option>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                </select>
+            </div>
+            <div class="main-description d-flex ">
                 <div class="main-image">
-                    <img src="https://avatars.githubusercontent.com/u/104457218" alt="Foto de Haline Tamaoki" >
+                    <img src="https://avatars.githubusercontent.com/u/104457218" alt="Haline Tamaoki Image" >
                 </div>
                 <div>
                     <h1>Haline Tamaoki</h1>
                     <p id="main-description"></p>
                     <hr>
-                    <h2 id="contact"></h2>
-                    
+                    <div>
+                        <div class="contact">
+                            <span class="material-symbols-outlined" aria-label="Location">location_on</span>
+                            <p id="location_on"></p>
+                        </div>
+                        <div class="contact">
+                            <span class="material-symbols-outlined" aria-label="LinkedIn">public</span>
+                            <a href="https://www.linkedin.com/in/haline-tamaoki-a7851811b/" target="_blank">https://www.linkedin.com/in/haline-tamaoki-a7851811b/</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="contact">
+                        <span class="material-symbols-outlined" aria-label="Languages">code</span>
+                        <p>HTML, CSS, Angular.js, React, JAVA, Sprint Boot, JSP, SQL, MongoDB, etc. </p>
+                    </div>
 
                 </div>
             </div>
-        </div>
-        <div class="custom-col-2">
-            <p>Texto    </p>
-        </div>
+        </section>
+        <section class="custom-part-2">
+            <h2 id="summary"></h2>
+            <p id="summary-text" class="w-75"></p>
+        </section>
+
+        <section class="custom-part-2">
+            <h2 id="experience"></h2>
+            <div class="experience-collapse">
+                <div class="d-flex experience-buttons gap-1">
+                    <button class="experience-button selected-button" id="experienceBtn0" type="button" data-bs-toggle="collapse" data-bs-target="#experience0" aria-expanded="false" aria-controls="experience0">
+                      T-Systems
+                    </button>
+                    <button class="experience-button" type="button" id="experienceBtn1" data-bs-toggle="collapse" data-bs-target="#experience1" aria-expanded="false" aria-controls="experience1">
+                        SulAmérica
+                    </button>
+                    <button class="experience-button" type="button" id="experienceBtn2" data-bs-toggle="collapse" data-bs-target="#experience2" aria-expanded="false" aria-controls="experience2">
+                        Accenture
+                    </button>
+                    <button class="experience-button" type="button" id="experienceBtn3" data-bs-toggle="collapse" data-bs-target="#experience3" aria-expanded="false" aria-controls="experience3">
+                        Crescimentum
+                    </button>
+                </div>
+                <div class="w-100" id="experience-container"></div>                
+            </div>
+        </section>
+
+        <section class="custom-part-3">
+            <div class="academic-background-div">
+                <h2 id="academic-background"></h2>
+                <ul id="academic-background-list"></ul>
+            </div>
+            <div>
+                <h2 id="other-experiences"></h2>
+                <ul id="other-experiences-list"></ul>
+            </div>
+        </section>
+
+        <section class="custom-part-2">
+            <h2 id="languages"></h2>
+            <div id="languages-list"></div>
+        </section>
+
+        <section class="custom-part-2">
+            <h2 id="courses"></h2>
+            <ul id="courses-list"></ul>
+        </section>
     </div>
 </body>
 
-<script>
-    var language = "pt";
-    getTexts(language)
+<footer class="d-flex gap-1 justify-content-center align-items-center">
+    <p id="footer-text" class="mb-0"></p>
+    <a href="https://github.com/HalineTamaoki" target="_blank">Haline Tamaoki</a>
+</footer>
 
-    function getTexts(language){
-        fetch(`${language}.json`)
-        .then(response => response.json())
-        .then(data => {
-          document.getElementById("main-description").innerHTML = data.mainDescription;
-          document.getElementById("contact").innerHTML = data.contact;
-        });
-    }
-</script>
+<script src="./script.js"></script>
 </html>
