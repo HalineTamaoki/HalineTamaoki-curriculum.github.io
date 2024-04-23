@@ -3,22 +3,26 @@
     "locationOn": "São Paulo, Brazil",
     "languageAriaLabel": "Select the language",
     "summary": "Summary",
-    "summaryText": "Graduated in administration from USP, I have experience in software development using the Angular.Js and Spring Boot (JAVA) frameworks. In IT, I have worked on an internal marketplace development project and on a contract management system project. In these projects, in addition to development, I used agile methodologies to organize stories and sprints, and I was responsible for the documentation and creation of user manuals. Before switching to IT, I worked with human resources, with a focus on Training and Development (T&D). I have also worked in educational project management, KPI management, data analysis, and Instructional Design.",
+    "summaryText": "Graduated in administration from USP, I have experience in software development using React, Angular and Spring Boot (JAVA) frameworks. In IT, I have worked on an internal marketplace development project and on a contract management system project. In these projects, in addition to development, I used agile methodologies to organize stories and sprints, and I was responsible for the documentation and creation of user manuals. Before switching to IT, I worked with human resources, with a focus on Training and Development (T&D). I have also worked in educational project management, KPI management, data analysis, and Instructional Design.",
     "experience": "Experience",
     "experiences": {
         "experience0": [
             {
-                "position": "Junior Developer",
+                "position": "Full Stack Developer",
                 "period": "sep/2022 - today",
                 "responsabilities": [
-                    "Development of responsive web interfaces using Angular, HTML5, CSS3, JavaScript, TypeScript, etc;",
-                    "Creation of backend software solutions using JAVA, Python, and the Spring Boot framework;",
-                    "Experience with the development of microservices, using messaging communication;",
-                    "Designing layouts in Figma and familiarity with user experience;",
-                    "Proficiency in both relational and non-relational databases, such as MySQL, Postgres, and MongoDB;",
-                    "Contribution to identifying needs and creating user stories;",
-                    "Experience with project documentation;",
-                    "Familiarity with agile methodologies, particularly SCRUM."]
+                    "Backend software development using JAVA, Python, and the Spring Boot framework;",
+                    "Frontend development with React / Typescript, and micro front-ends;",
+                    "Frontend development with Angular / HTML5 / CSS3 / JavaScript;",
+                    "Development of unit tests (JUnit / JEST / React Testing Library ) and integration tests (Postman / Playright);",
+                    "Experience with microservices development, utilizing messaging communication (RabbitMQ);",
+                    "Experience with relational databases (Oracle / MySQL / Postgres) and non-relational databases (MongoDB);",
+                    "Preparation of technical estimates of the development effort;",
+                    "Preparation of technical specifications;",
+                    "UI design using Figma;",
+                    "Assistance in requirement gathering and user story writing;",
+                    "Experience with agile methodologies."
+                ]
             }
         ],
         "experience1": [
@@ -94,14 +98,20 @@
             {"name": "Portuguese", "level": 3, "levelName": "Native"},
             {"name": "English", "level": 3, "levelName": "Advanced"},
             {"name": "Spanish", "level": 3, "levelName": "Advanced"},
-            {"name": "Japanese", "level": 1, "levelName":"Basic"}
+            {"name": "Japanese", "level": 1, "levelName":"Basic"},
+            {"name": "German", "level": 1, "levelName":"Basic"}
         ]
     },
     "courses": {
         "title": "Main recent courses",
         "list": [
+            "Python Data Analytics (68 hours) - DIO - 2024",
+            "Advanced React (28 hours) - Coursera - 2024",
+            "React Basics (26 hours) - Coursera - 2024",
+            "Programming with JavaScript (42 hours) - Coursera - 2023",
+            "Mobile with Flutter (89 hours) - DIO - 2023",
             "FullStack Developer (Angular.js, Java, Spring Boot, JSP, MySQL) (400 hours) - Proway - 2022;",
-            "FullStack Developer (HTML5, CSS3, JavaScript, ReactJs, NodeJs, MySQL) (98 hours) - Digital Innovation One - 2022;",
+            "FullStack Developer (HTML5, CSS3, JavaScript, ReactJs, NodeJs, MySQL) (98 hours) - DIO - 2022;",
             "Instructional Design (120 hours) - Instituto de Desenho Instrucional - 2021;",
             "Master Power BI (20 hours) - Sigma Treinamentos - 2020;",
             "Advanced Excel 2.0 (20 hours) - Sigma Treinamentos - 2020."

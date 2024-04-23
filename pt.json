@@ -8,16 +8,21 @@
     "experiences": {
         "experience0": [
             {
-                "position": "Desenvolvedora Jr.",
+                "position": "Desenvolvedora Full Stack",
                 "period": "set/2022 - ao presente",
-                "responsabilities": ["Desenvolvimento de interfaces web responsivas utilizando Angular, HTML5, CSS3, JavaScript, Typescript, etc;",
-                "Criação de soluções de software no backend, utilizando as linguagens JAVA, Python e o framework Spring Boot;",
-                "Experiência com o desenvolvimento de microsserviços, utilizando comunicação via mensageria;",
-                "Elaboração de layouts no Figma e vivência com experiência do usuário;",
-                "Domínio de bancos de dados relacionais e não relacionais, como MySQL, Postgres e MongoDB;",
-                "Contribuição na identificação das necessidades e na elaboração de histórias de usuários;",
-                "Experiência com documentação de projetos;",
-                "Vivência em metodologias ágeis, principalmente SCRUM."]
+                "responsabilities": [
+                    "Desenvolvimento back-end utilizando Spring Boot (JAVA) e Python;",
+                    "Desenvolvimento front-end com React / Typescript, com micro front-ends;",
+                    "Desenvolvimento front-end com Angular / HTML5 / CSS3 / JavaScript;",
+                    "Desenvolvimento de Testes Unitários (JUnit / JEST / React Testing Library) e Testes de Integração (Postman / Playright);", 
+                    "Experiência com o desenvolvimento de microsserviços, utilizando comunicação via mensageria (RabbitMQ);",
+                    "Experiência com base de dados relacional (Oracle / MySQL / Postgres) e não relacional (MongoDB);",
+                    "Elaboração de estimativas técnicas do esforço de desenvolvimento;",
+                    "Elaboração de especificações técnicas;",
+                    "Elaboração de layouts no Figma;",
+                    "Contribuição na identificação das necessidades, na elaboração de histórias de usuários e definição de sprints;",
+                    "Vivência em metodologias ágeis."
+                ]
             }
         ],
         "experience1": [
@@ -92,12 +97,18 @@
         "list": [
             {"name": "Inglês", "level": 3, "levelName": "Avançado"},
             {"name": "Espanhol", "level": 3, "levelName": "Avançado"},
-            {"name": "Japonês", "level": 1, "levelName":"Básico"}
+            {"name": "Japonês", "level": 1, "levelName":"Básico"},
+            {"name": "Alemão", "level": 1, "levelName":"Básico"}
         ]
     },
     "courses": {
         "title": "Principais cursos recentes",
         "list": [
+            "Python Data Analytics (68 horas) - DIO - 2024",
+            "Advanced React (28 horas) - Coursera - 2024",
+            "React Basics (26 horas) - Coursera - 2024",
+            "Programming with JavaScript (42 horas) - Coursera - 2023",
+            "Mobile com Flutter (89 horas) - DIO - 2023",
             "FullStack Developer (Angular.js, Java, Spring Boot, JSP, MySQL) (400 horas) – Proway – 2022",
             "FullStack Developer (HTML5, CSS3, JavaScript, ReactJs, NodeJs, MySQL) (98 horas) – Digital Innovation One - 2022",
             "Desenho Instrucional (120 horas) – Instituto de Desenho Instrucional - 2021",
